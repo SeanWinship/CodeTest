@@ -6,7 +6,7 @@
 
     To run tests: mvnw test
 
-2. Employees are identified in the XML file employees.xml.  Employees can see the "Urgent" tick box on the contact form, and their contact request should be highlighted on the output.  Modify the EmployeeService to correctly return whether the user is an employee or not, it currently only detects "10.0.0.1".
+2. Employees are identified in the XML file employees.xml.  Employees can see the "Urgent" tick box on the contact form, and their contact request should be highlighted on the output (Task 4).  Modify the EmployeeService to correctly return whether the user is an employee or not, it currently only detects "10.0.0.1".
 
 3. There is a security flaw in the system.  "Hacker" submitted HTML in their contact request, and when the administrator views this (http://localhost:8080/view?id=3) the HTML is rendered and the script run.  Modify the code to prevent all XSS.
 

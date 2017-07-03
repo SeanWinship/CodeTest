@@ -2,8 +2,9 @@
 
 1. Download the code from Git, compile, and run.  It uses Maven.  Use any IDE and Git Client (we use Eclipse Mars and Atlassian SourceTree)
 
-To run the application: mvnw spring-boot:run ; it will start a server on http://localhost:8080
-To run tests: mvnw test
+    To run the application: mvnw spring-boot:run ; it will start a server on http://localhost:8080
+
+    To run tests: mvnw test
 
 2. Employees are identified in the XML file employees.xml.  Employees can see the "Urgent" tick box on the contact form, and their contact request should be highlighted on the output.  Modify the EmployeeService to correctly return whether the user is an employee or not, it currently only detects "10.0.0.1".
 
